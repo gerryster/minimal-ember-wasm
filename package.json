@@ -22,6 +22,9 @@
     "test": "npm-run-all --print-name \"lint\" \"test:*\"",
     "test:ember": "ember test"
   },
+  "dependencies": {
+    "minimal-rust-wasm": "file:./minimal-rust-wasm/pkg"
+  },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.8.1",
